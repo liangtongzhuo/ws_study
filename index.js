@@ -16,10 +16,10 @@ ultron
 
 
 
-// events.on('foo', foo);
+events.on('foo', foo);
 // events.on('foo', foo);
 // events.removeListener('foo', foo);
 
 
 events.emit('foo','-x-');
-events.emit('foo');
+// events.emit('foo');
